@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         btn_getstarted.setOnClickListener {
             // Start the workout tracking activity
-            val intent = Intent(this, RegisterActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
     }
